@@ -1,8 +1,10 @@
 <div class="emberjs-slider-container">
-  <input type="range"
+  <input
+    type="range"
     min="{{min}}"
     max="{{max}}"
     value="{{startValue}}"
-    class="slider"
-    id="emberjs-slider-range">
+    id="emberjs-slider-range"
+    {{action 'onInput'}} />
 </div>
+{{yield}}
