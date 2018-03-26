@@ -1,7 +1,18 @@
 # emberjs-slider
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This README outlines the details of collaborating on this EmberJS component.
+It is a basic HTML slider managed by EmberJS.
+
+# TODO
+
+* Allow CSS injection.
+* JavaScript logic (onRangeChanged, onValueChanged).
+* Handle invalid input on didRender: See component lifecycle.
+* Write more tests.
+
+# Development 
+
+Instructions on how to contribute to this project.
 
 ## Prerequisites
 
@@ -18,17 +29,7 @@ You will need the following things properly installed on your computer.
 * `cd emberjs-slider`
 * `npm install`
 
-## Running / Development
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
+## Running Tests
 
 * `ember test`
 * `ember test --server`
@@ -37,15 +38,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 * `npm run lint:js`
 * `npm run lint:js -- --fix`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
