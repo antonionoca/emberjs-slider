@@ -1,15 +1,18 @@
 {
   "name": "emberjs-slider",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
-  "description": "Small description for emberjs-slider goes here",
+  "description": "emberjs-slider component.",
   "license": "MIT",
-  "author": "",
+  "author": "Antonio Noca",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antonionoca/emberjs-slider.git"
+  },
   "scripts": {
     "build": "ember build",
     "lint:js": "eslint ./*.js app config lib server tests",
