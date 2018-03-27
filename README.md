@@ -8,7 +8,6 @@ It is a basic HTML slider managed by EmberJS.
 * Allow CSS injection.
 * JavaScript logic (onRangeChanged, onValueChanged).
 * Handle invalid input on didRender: See component lifecycle.
-* Write more tests.
 
 # Development 
 

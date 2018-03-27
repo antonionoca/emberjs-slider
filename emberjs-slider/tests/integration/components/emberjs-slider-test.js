@@ -6,21 +6,8 @@ import hbs from 'htmlbars-inline-precompile';
 module('Integration | Component | emberjs-slider', function(hooks) {
   setupRenderingTest(hooks);
 
-  test('it renders', async function(assert) {
-    // Set any properties with this.set('myProperty', 'value');
-    // Handle any actions with this.set('myAction', function(val) { ... });
-
-    await render(hbs`{{emberjs-slider}}`);
-
-    assert.equal(this.element.textContent.trim(), '');
-
-    // Template block usage:
-    await render(hbs`
-      {{#emberjs-slider}}
-        template block text
-      {{/emberjs-slider}}
-    `);
-
-    assert.equal(this.element.textContent.trim(), 'template block text');
+  test('should display a slider', async function(assert) {
+    await render(hbs`{{emberjs-slider min=1 max=10 startValue=5}}`);
+    assert.equal(this.$('#emberjs-slider-range')[0].value, 5);
   });
 });
